@@ -495,17 +495,16 @@ aside {
     text-align: center;
     align-items: center;
     flex-wrap: wrap;
- 
-    
 }
 
 #first-eng div p{
     text-align: justify;
     color: var(--text-color);
+    height: 90vh;
     width: 100%;
-    font-size: 2.5vw;
-    padding-right: 6%;
-    
+    margin-top: 10%;
+    font-size: 2.2vw;
+    padding-right: 7%;    
 }
 
 /* Responsividade em Celulares */
@@ -735,6 +734,47 @@ h1, h2 {
 #about h2 {
     color: var(--name-color);
     font-size: 3.5vw;
+}
+
+/* Eng. Software */
+
+/* Engenharia de Software e Elaboração */
+
+#header-eng {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+#header-eng p{
+    color: var(--text-color);
+    font-size: 4vw;
+    margin-left: 8vw;
+}
+
+#first-eng div{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-right: 8%;
+}
+
+#first-eng div p{
+    height: 80vh;
+    width: 100%;
+    font-size: 4vw;
+    padding-right: 2%;    
+    padding-left: 0;
+}
+
+#projects {
+    margin-left: 3.75%;
+}
+
+#projects h2{
+    margin-bottom: 25%;
 }
 
 }
